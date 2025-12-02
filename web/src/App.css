@@ -1,0 +1,273 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.app-header .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+  flex: 1;
+  text-align: left;
+}
+
+.user-menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.help-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+
+.help-button:hover {
+  background-color: #2980b9;
+}
+
+.logout-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #c0392b;
+}
+
+.username {
+  font-size: 0.9rem;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+
+.dropdown-toggle:hover {
+  background-color: #2980b9;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  color: #333;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  min-width: 120px;
+  z-index: 1000;
+  display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #333;
+  border-bottom: 1px solid #eee;
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+}
+
+.dropdown-item:last-child {
+  border-bottom: none;
+}
+
+/* 搜索表单通用样式 */
+.search-container {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.search-row {
+  display: flex;
+  gap: 15px;
+  flex-wrap: nowrap; /* Prevent wrapping to keep everything on one line */
+  align-items: flex-end; /* Align items to the bottom */
+}
+
+.search-group {
+  flex: 1;
+  min-width: 150px; /* Reduced min-width for better fit */
+  display: flex;
+  flex-direction: column;
+}
+
+.search-group label {
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.search-input {
+  padding: 3px 10px; /* Further reduced vertical padding */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 0.85rem; /* Slightly reduced font size */
+  min-height: 26px; /* Further reduced height */
+  height: 26px; /* Explicit height */
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0,123,255,0.25);
+}
+
+.search-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  align-items: flex-end; /* Align buttons with the bottom of inputs */
+  min-height: 26px; /* Match the height of inputs */
+}
+
+.app-nav {
+  background-color: #34495e;
+  padding: 0;
+}
+
+.app-nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.app-nav li {
+  padding: 1rem 1.5rem;
+  color: #ecf0f1;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-bottom: 3px solid transparent;
+}
+
+/* 针对系统菜单项的特殊样式 */
+.app-nav li:last-child {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.app-nav li:last-child .dropdown {
+  width: 100%;
+  height: 100%;
+}
+
+.app-nav li:last-child .dropdown-toggle {
+  width: 100%;
+  height: 100%;
+  padding: 1rem 1.5rem;
+  background: none;
+  border: none;
+  color: #ecf0f1;
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.app-nav li:last-child:hover .dropdown-toggle {
+  background-color: #3d566e;
+}
+
+.app-nav li:not(:last-child):hover {
+  background-color: #3d566e;
+}
+
+.app-nav li.active:not(:last-child) {
+  background-color: #3d566e;
+  border-bottom: 3px solid #3498db;
+}
+
+.app-main {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .app-nav ul {
+    flex-direction: column;
+  }
+  
+  .app-nav li {
+    border-bottom: 1px solid #2c3e50;
+    border-left: 3px solid transparent;
+  }
+  
+  .app-nav li.active {
+    border-bottom: 1px solid #2c3e50;
+    border-left: 3px solid #3498db;
+  }
+}

@@ -1,0 +1,12 @@
+2025/11/04 16:47:05 成功连接到MySQL数据库
+2025/11/04 16:47:05 成功连接到MySQL数据库
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.10.2
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+{"time":"2025-11-04T16:47:05.07304993+08:00","level":"FATAL","prefix":"echo","file":"main.go","line":"205","message":"listen tcp :8080: bind: address already in use"}

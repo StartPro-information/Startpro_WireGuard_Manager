@@ -1,0 +1,112 @@
+.email-config-container {
+  padding: 20px;
+  background-color: #f5f5f5;
+  min-height: 100%;
+}
+
+.email-config-container .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.email-config-container .header h2 {
+  margin: 0;
+  color: #333;
+}
+
+.email-config-container .form {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.email-config-container .form-group {
+  margin-bottom: 1rem;
+}
+
+.email-config-container .form-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.email-config-container .form-row .form-group {
+  flex: 1;
+}
+
+.email-config-container .form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.email-config-container .form-group input[type="text"],
+.email-config-container .form-group input[type="number"],
+.email-config-container .form-group input[type="email"],
+.email-config-container .form-group input[type="password"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.email-config-container .form-group input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.email-config-container .form-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.email-config-container .help-section {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.email-config-container .help-section h3 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.email-config-container .help-section ol,
+.email-config-container .help-section ul {
+  padding-left: 20px;
+}
+
+.email-config-container .help-section li {
+  margin-bottom: 8px;
+}
+
+.email-config-container .success-message {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.email-config-container .error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .email-config-container .form-row {
+    flex-direction: column;
+    gap: 0;
+  }
+}

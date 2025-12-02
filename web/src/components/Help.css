@@ -1,0 +1,42 @@
+.help-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.help-container h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.help-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.help-section h2 {
+  color: #007bff;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.help-section p {
+  line-height: 1.6;
+  color: #555;
+}
+
+.help-section ul,
+.help-section ol {
+  padding-left: 20px;
+}
+
+.help-section li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  color: #555;
+}
