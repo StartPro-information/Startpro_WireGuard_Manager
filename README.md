@@ -185,7 +185,7 @@ Click to switch language:
 </center>
 
 <center>
-  <img src="./images/CN3.png" width="900">
+  <img src="./images/CN4.png" width="900">
 </center>
 
 </details>
