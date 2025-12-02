@@ -357,8 +357,6 @@ Default login:
 
 `admin / admin`
 
-</details>
-
 ## 7. Web UI Screenshots
 
 <center>
@@ -376,3 +374,5 @@ Default login:
 <center>
   <img src="./images/EN4.png" width="300">
 </center>
+
+</details>
