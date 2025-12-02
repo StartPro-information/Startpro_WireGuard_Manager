@@ -173,19 +173,19 @@ Click to switch language:
 ## 7、界面截图
 
 <center>
-  <img src="./images/CN1.png" width="300">
+  <img src="./images/CN1.png" width="600">
 </center>
 
 <center>
-  <img src="./images/CN2.png" width="300">
+  <img src="./images/CN2.png" width="600">
 </center>
 
 <center>
-  <img src="./images/CN3.png" width="300">
+  <img src="./images/CN3.png" width="600">
 </center>
 
 <center>
-  <img src="./images/CN3.png" width="300">
+  <img src="./images/CN3.png" width="600">
 </center>
 
 </details>
@@ -360,19 +360,19 @@ Default login:
 ## 7. Web UI Screenshots
 
 <center>
-  <img src="./images/EN1.png" width="300">
+  <img src="./images/EN1.png" width="600">
 </center>
 
 <center>
-  <img src="./images/EN2.png" width="300">
+  <img src="./images/EN2.png" width="600">
 </center>
 
 <center>
-  <img src="./images/EN3.png" width="300">
+  <img src="./images/EN3.png" width="600">
 </center>
 
 <center>
-  <img src="./images/EN4.png" width="300">
+  <img src="./images/EN4.png" width="600">
 </center>
 
 </details>
