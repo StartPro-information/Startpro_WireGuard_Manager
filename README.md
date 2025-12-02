@@ -168,15 +168,25 @@ Click to switch language:
 
 `admin / admin`
 
-# 🖼️ 界面截图
 
-<img src="file:///C:/Users/Startpro/AppData/Roaming/marktext/images/2025-12-02-19-04-14-d5634ccb14327b9e8eee2b98c7565718.png" title="" alt="" width="1191">
 
-<img title="" src="file:///C:/Users/Startpro/AppData/Roaming/marktext/images/2025-12-02-19-04-29-6497ed1bb5b56821bf4ab61256e8e358.png" alt="" width="1191">
+## 7、界面截图
 
-<img src="file:///C:/Users/Startpro/AppData/Roaming/marktext/images/2025-12-02-19-04-50-bdeecbe4aed623e326564c38091c1c0b.png" title="" alt="" width="1191">
+<center>
+  <img src="./images/CN1.png" width="300">
+</center>
 
-<img src="file:///C:/Users/Startpro/AppData/Roaming/marktext/images/2025-12-02-19-05-04-d5bf99ecb23a7b2a036c56769ecacd47.png" title="" alt="" width="1191">
+<center>
+  <img src="./images/CN2.png" width="300">
+</center>
+
+<center>
+  <img src="./images/CN3.png" width="300">
+</center>
+
+<center>
+  <img src="./images/CN3.png" width="300">
+</center>
 
 </details>
 
@@ -349,12 +359,20 @@ Default login:
 
 </details>
 
-# 🖼️ Web UI Screenshots
+## 7. Web UI Screenshots
 
-<img title="" src="file:///C:/Users/Startpro/AppData/Roaming/marktext/images/2025-12-02-19-05-27-8f43cf877a7b685be2c9426d8095602a.png" alt="" width="1225">
+<center>
+  <img src="./images/EN1.png" width="300">
+</center>
 
-<img src="file:///C:/Users/Startpro/AppData/Roaming/marktext/images/2025-12-02-19-05-52-cec7a3e8581fcc090372f8fe48f6867c.png" title="" alt="" width="1225">
+<center>
+  <img src="./images/EN2.png" width="300">
+</center>
 
-<img src="file:///C:/Users/Startpro/AppData/Roaming/marktext/images/2025-12-02-19-06-05-413fba303d284dd822ed31dbc20dd894.png" title="" alt="" width="1224">
+<center>
+  <img src="./images/EN3.png" width="300">
+</center>
 
-<img src="file:///C:/Users/Startpro/AppData/Roaming/marktext/images/2025-12-02-19-06-18-fec462c5e1c207ee5e7e976dcc33f805.png" title="" alt="" width="1226">
+<center>
+  <img src="./images/EN4.png" width="300">
+</center>
