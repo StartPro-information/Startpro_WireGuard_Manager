@@ -55,7 +55,7 @@ Click to switch language:
 
 ### 🌏 多语言
 
-- 中文 / Englis
+- 中文 / English
 
 ## 🧩 技术栈（Tech Stack）
 
