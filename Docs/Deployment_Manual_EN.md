@@ -1,5 +1,5 @@
 I. Prepare the System Environment
-Operating System: Ubuntu 20.04 LTS
+Operating System: Ubuntu 22.04 LTS
 
 CPU: Minimum 2 cores
 

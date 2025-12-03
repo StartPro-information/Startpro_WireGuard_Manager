@@ -71,7 +71,7 @@ Click to switch language:
 
 ## 一、准备系统环境
 
-**操作系统：** Ubuntu 20.04 LTS  
+**操作系统：** Ubuntu 22.04 LTS  
 **CPU：** ≥ 2 核  
 **内存：** ≥ 4 GB  
 **磁盘：** ≥ 10 GB
@@ -279,7 +279,7 @@ Suitable for individuals, teams, and enterprises.
 
 ## 1. System Requirements
 
-- Ubuntu 20.04 LTS
+- Ubuntu 22.04 LTS
 
 - CPU ≥ 2 cores
 
