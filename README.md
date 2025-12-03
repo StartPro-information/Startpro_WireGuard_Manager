@@ -28,7 +28,7 @@ Click to switch language:
 
 ### 👥 客户端管理
 
-- 自动生成客户端配置文件（含二维码）
+- 自动生成客户端配置文件
 
 - 自动分配客户端密钥与 IP
 
@@ -106,21 +106,27 @@ Click to switch language:
 
 ### 1. 安装 Go（如需编译）
 
-`wget https://go.dev/dl/go1.21.1.linux-amd64.tar.gz` 
-`sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.21.1.linux-amd64.tar.gz echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc source ~/.bashrc go version`
+```
+wget https://go.dev/dl/go1.21.1.linux-amd64.tar.gz
+sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.21.1.linux-amd64.tar.gz echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc source ~/.bashrc go version
+```
 
 ### 2. 安装并初始化 MySQL
 
-`sudo apt install -y mysql-server`
-`sudo systemctl start mysql`
-`sudo systemctl enable mysql`
+```
+sudo apt install -y mysql-server
+sudo systemctl start mysql
+sudo systemctl enable mysql
+```
 
 初始化：
 
-`CREATE DATABASE wireguard_manager;`
-`CREATE USER 'wireguard'@'localhost' IDENTIFIED BY 'wireguard123';`
-`GRANT ALL PRIVILEGES ON wireguard_manager.* TO 'wireguard'@'localhost';`
-`FLUSH PRIVILEGES;`
+```
+CREATE DATABASE wireguard_manager;
+CREATE USER 'wireguard'@'localhost' IDENTIFIED BY 'wireguard123';
+GRANT ALL PRIVILEGES ON wireguard_manager.* TO 'wireguard'@'localhost';
+FLUSH PRIVILEGES;
+```
 
 ---
 
@@ -132,13 +138,17 @@ Click to switch language:
 
 ### 2. 复制前端配置
 
-`sudo cp /your_project_path/wireguard-manager/web/wireguard-manager.conf /etc/nginx/sites-available/`
-`sudo ln -s /etc/nginx/sites-available/wireguard-manager.conf /etc/nginx/sites-enabled/`
+```
+sudo cp /your_project_path/wireguard-manager/web/wireguard-manager.conf /etc/nginx/sites-available/
+sudo ln -s /etc/nginx/sites-available/wireguard-manager.conf /etc/nginx/sites-enabled/
+```
 
 ### 3. 拷贝静态资源
 
-`sudo mkdir -p /var/www/wireguard-manager`
-`sudo cp -r /your_project_path/wireguard-manager/web/dist/* /var/www/wireguard-manager/`
+```
+sudo mkdir -p /var/www/wireguard-manager
+sudo cp -r /your_project_path/wireguard-manager/web/dist/* /var/www/wireguard-manager/
+```
 
 ### 4. 重启 Nginx
 
@@ -162,10 +172,12 @@ Click to switch language:
 
 ### 3. 启动后端
 
-`sudo cp /your_project_path/wireguard-manager/backend/wireguard-manager.server /etc/systemd/system/`
-`sudo systemctl daemon-reload`
-`sudo systemctl start wireguard-manager`
-`sudo systemctl enable wireguard-manager`
+```
+sudo cp /your_project_path/wireguard-manager/backend/wireguard-manager.server /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl start wireguard-manager
+sudo systemctl enable wireguard-manager
+```
 ---
 
 ## 六、登录
@@ -226,7 +238,7 @@ Suitable for individuals, teams, and enterprises.
 
 ### 👥 Client Management
 
-- Auto-generate client config (with QR code)
+- Auto-generate client config
 
 - Auto-generate key pairs and client IP
 
@@ -305,21 +317,27 @@ Apply:
 
 ### Install Go (if you need to recompile)
 
-`wget https://go.dev/dl/go1.21.1.linux-amd64.tar.gz`
-`sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.21.1.linux-amd64.tar.gz echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc source ~/.bashrc go version`
+```
+wget https://go.dev/dl/go1.21.1.linux-amd64.tar.gz
+sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.21.1.linux-amd64.tar.gz echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc source ~/.bashrc go version
+```
 
 ### Install & initialize MySQL
 
-`sudo apt install -y mysql-server`
-`sudo systemctl start mysql`
-`sudo systemctl enable mysql`
+```
+sudo apt install -y mysql-server
+sudo systemctl start mysql
+sudo systemctl enable mysql
+```
 
 Run:
 
-`CREATE DATABASE wireguard_manager;`
-`CREATE USER 'wireguard'@'localhost' IDENTIFIED BY 'wireguard123';`
-`GRANT ALL PRIVILEGES ON wireguard_manager.* TO 'wireguard'@'localhost';`
-`FLUSH PRIVILEGES;`
+```
+CREATE DATABASE wireguard_manager;
+CREATE USER 'wireguard'@'localhost' IDENTIFIED BY 'wireguard123';
+GRANT ALL PRIVILEGES ON wireguard_manager.* TO 'wireguard'@'localhost';
+FLUSH PRIVILEGES;
+```
 
 ---
 
@@ -331,13 +349,17 @@ Run:
 
 ### Copy project config
 
-`sudo cp /your_project_path/wireguard-manager/web/wireguard-manager.conf /etc/nginx/sites-available/`
-`sudo ln -s /etc/nginx/sites-available/wireguard-manager.conf /etc/nginx/sites-enabled/`
+```
+sudo cp /your_project_path/wireguard-manager/web/wireguard-manager.conf /etc/nginx/sites-available/
+sudo ln -s /etc/nginx/sites-available/wireguard-manager.conf /etc/nginx/sites-enabled/
+```
 
 ### Copy frontend build files
 
-`sudo mkdir -p /var/www/wireguard-manager`
-`sudo cp -r /your_project_path/wireguard-manager/web/dist/* /var/www/wireguard-manager/`
+```
+sudo mkdir -p /var/www/wireguard-manager
+sudo cp -r /your_project_path/wireguard-manager/web/dist/* /var/www/wireguard-manager/
+```
 
 ### Restart Nginx
 
@@ -361,10 +383,12 @@ Replace `/your_project_path`.
 
 ### Deploy service
 
-`sudo cp /your_project_path/wireguard-manager/backend/wireguard-manager.server /etc/systemd/system/`
-`sudo systemctl daemon-reload`
-`sudo systemctl start wireguard-manager`
-`sudo systemctl enable wireguard-manager`
+```
+sudo cp /your_project_path/wireguard-manager/backend/wireguard-manager.server /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl start wireguard-manager
+sudo systemctl enable wireguard-manager
+```
 
 ---
 
