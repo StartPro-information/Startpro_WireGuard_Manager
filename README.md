@@ -18,44 +18,21 @@ Click to switch language:
 
 ## ✨ 功能特性
 
-🔧 服务器管理
+**·轻量快捷：**服务对硬件资源所需很少并且代码无需编译，直接运行可执行文件即可i。
 
-- 创建、编辑、删除多个 WireGuard 实例
+**·Web可视化界面：**无需命令行，浏览器即可配置与管理所有的服务实例与客户端。
 
-- 自动生成密钥对
+**·多实例：**支持配置多个wireguard服务实例与多个客户端，支持一键下载客户端配置。
 
-- 支持配置地址、端口、DNS、MTU、网络接口
+**·自动化配置：**可自动生成非对称密钥、预共享密钥，可自动为客户端分配IP，简化运维人员的配置。
 
-### 👥 客户端管理
+**·冲突检测：**可对网段、IP地址、端口等配置进行冲突检测，避免由于配置疏忽造成网络冲突从而导致网络故障。
 
-- 自动生成客户端配置文件
+**·监控运营：**可查看每个客户端在线情况与上下行实时流量，可查看多个维度的统计流量。
 
-- 自动分配客户端密钥与 IP
+**·访问日志：**记录客户端的连接与断开、在线使用上下行流量的日志，用于安全审计与使用追踪。
 
-- 自定义 AllowedIPs
-
-- 支持邮件发送客户端配置
-
-### 📊 状态监控与流量统计
-
-- 服务端与客户端连接状态
-
-- 上下行实时流量统计  
-  ※ 因 WireGuard 特性，状态可能存在延迟
-
-### 📝 访问日志
-
-- 客户端连接/断开日志
-
-### ✉️ 邮箱系统
-
-- 支持 SMTP
-
-- 自动发送配置文件
-
-### 🌏 多语言
-
-- 中文 / English
+**·SMTP邮箱系统：**可对接多种主流的邮箱系统（阿里、腾讯、网页、谷歌等），用于一键发送客户端配置文件，可添加邮箱附件。
 
 ## 🧩 技术栈（Tech Stack）
 
@@ -99,6 +76,10 @@ Click to switch language:
 ### 3. 关闭防火墙（可选）
 
 `sudo ufw disable`
+
+### 4. 克隆wireguard-manager项目
+
+`git clone https://github.com/StartPro-information/Startpro_WireGuard_Manager.git`
 
 ---
 
@@ -228,42 +209,21 @@ Suitable for individuals, teams, and enterprises.
 
 ## ✨ Features
 
-🔧 Server Management
+**Lightweight and Fast:** The service requires minimal hardware resources and the code requires no compilation; simply run the executable file.
 
-- Create, edit and delete multiple WireGuard instances
+**Web Visual Interface:** No command line is needed; configure and manage all service instances and clients directly through a browser.
 
-- Auto-generate server key pairs
+**Multi-Instance:** Supports configuring multiple Wireguard service instances and multiple clients, with one-click client configuration download.
 
-- Configurable address, port, DNS, MTU, interface
+**Automated Configuration:** Automatically generates asymmetric keys and pre-shared keys, and automatically assigns IP addresses to clients, simplifying configuration for operations personnel.
 
-### 👥 Client Management
+**Conflict Detection:** Performs conflict detection on network segments, IP addresses, ports, etc., preventing network failures caused by configuration oversights.
 
-- Auto-generate client config
+**Monitoring and Operations:** Allows viewing the online status and real-time upstream and downstream traffic of each client, and provides multi-dimensional traffic statistics.
 
-- Auto-generate key pairs and client IP
+**Access Logs:** Records client connection and disconnection, and online upstream and downstream traffic usage logs for security auditing and usage tracking.
 
-- Custom AllowedIPs
-
-- Email sending supported
-
-### 📊 Monitoring & Traffic Stats
-
-- Server/client online status
-
-- Upload/download traffic stats  
-  ※ State delay is normal due to WireGuard protocol
-
-### 📝 Access Logs
-
-- Client connect/disconnect logs
-
-### ✉️ SMTP Support
-
-- Send client configuration via email
-
-### 🌏 Multi-language
-
-- Chinese / English
+**SMTP Email System:** This system can connect to various mainstream email systems (Alibaba, Tencent, web, Google, etc.) for one-click sending of client configuration files and the ability to add email attachments.
 
 ## 🧩 Tech Stack
 
@@ -310,6 +270,10 @@ Apply:
 ### Disable firewall (optional)
 
 `sudo ufw disable`
+
+### Clone Wireguard-Manager
+
+`git clone https://github.com/StartPro-information/Startpro_WireGuard_Manager.git`
 
 ---
 
